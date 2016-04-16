@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image: url("images/Philly-Art-Institute.jpg");
+	background-repeat: repeat-y;
+	background-color: #000000;
+	margin: 0;
+
+}
+.logo{
+	width:100%;
+	height:75px;
+	padding-left: 40px;
+	padding-top: 15px;
+	margin-top: 30px;
+	background-color: black;
+	color: #fdc26b;
+	font-family: futura;
+	font-size:40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: left;
+	line-height: 100%;
+	position: relative;
+
+
+
+}
+.news{
+	width:75px;
+	height:20px;
+	border-radius: 50%;
+	background-color:#fdc26b;
+	text-align: center;
+	font-family:futura;
+	float:right;
+	margin-right:385px;
+}
+
+.media{
+	color:#fdc26b;
+	width:75px;
+	height:25px;
+	border-radius: 50%;
+	background-color:#f4884b;
+	text-align: center;
+	font-family:futura;
+	float:right;
+	margin-right:650px;
+	margin-top:285px;
+}
+.clearfix{
+	clear:both;
+	}
+
+
+.float-left{
+	float:left;
+	background-color: black;
+	width:100vw;
+	height: 25%;
+position:absolute;
+	margin-top: 200px;
+	z-index: -1;
+	opacity: 0.9;
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+.teasers-container{
+
+	width:80%;
+	height: 100%;
+	/*padding-top: 175px;*/
+	color: #f4884b;
+	text-align: center;
+	font-family: futura;
+	line-height: 125%;
+	opacity: 0.9;
+	filter: alpha(opacity=00); /* For IE8 and earlier */
+	}
+
+	.video-container{
+		float:left;
+		background-color: black;
+		width:100%;
+		height: 300px;
+	position:absolute;
+		margin-top:240px;
+		z-index: -1;
+
+	}
+	.flex-boxes{
+		padding-left: 350px;
+		margin: 0:auto;
+		list-style:none:
+		flex-direction: row;
+		display: flex;
+		height: 200px;
+		width:300px
+		justify-content: space-around;
+
+	}
+	.flex-item{
+		background:#fdc26b;
+		padding-top:15px;
+		padding-left:35px;
+		width:300px;
+		height:150px;
+		margin:10px;
+		align-content:space-between
+		line-height: 150px;
+		color: white;
+		font-weight: bold;
+		font-size: 3em;
+		text-align: center;
+		border-radius: 10px;
+
+	}
+
+
+nav{
+	float: left;
+	color: #f4884b;
+	height: 100%;
+	width: calc(20% - 5px);
+	/*padding: 10px;*/
+	line-height:200%;
+	font-family: futura;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	list-style-type:none;
+	border-right: 5px solid #f4884b;
+}
+
+ul{
+	list-style: none;
+}
+.footer-container{
+		float:left;
+		background-color: black;
+		color: #f4884b;
+		width:90%;
+		height: 150px;
+		margin-top:1000px;
+		padding 50px;
+		padding-right: 50px;
+		text-align:right;
+		font-family: futura;
+
+}
